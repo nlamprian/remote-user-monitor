@@ -1,0 +1,12 @@
+[Unit]
+Description=Communicates with a remote-user-monitor device
+ 
+[Service]
+Type=simple
+ExecStart=/opt/remote-user-monitor/remote-user-monitor-driver.py
+ExecReload=/bin/kill $MAINPID
+ExecStop=/bin/kill $MAINPID
+Restart=always
+ 
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,31 @@
+##############################################
+# Syntax Coloring Map For remote-user-monitor
+##############################################
+
+###########################################
+# Datatypes (KEYWORD1)
+###########################################
+
+# x	KEYWORD1
+
+###########################################
+# Methods and Functions (KEYWORD2)
+###########################################
+
+init	KEYWORD2
+initIntro	KEYWORD2
+showIntro	KEYWORD2
+update	KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+parser	KEYWORD2
+display	KEYWORD2
+led	KEYWORD2
+button	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
