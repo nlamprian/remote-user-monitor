@@ -3,7 +3,7 @@ Remote User Monitor
 
 The project creates an interface to monitor the state of an application running on a computer. Assuming you have a server and a process you are interested in, you can visualize whether the process is running or not, and which users are remotely connected to the server. You can watch a demo [here](https://www.youtube.com/watch?v=AxPdPzObXUI). For more information behind this project, you can read [here](http://nlamprian.me/project/hardware/design/2019-08-18-remote-user-monitor).
 
-![project](assets/project.png)
+![project](https://github.com/nlamprian/remote-user-monitor/wiki/assets/project.png)
 
 The project is comprised of a device (a WEMOS LoLin32 board with an OLED screen, a DotStar LED and a tactile switch) and a client application that drives the device.
 
